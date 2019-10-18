@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/Coarse/Coarse.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/Fine/Fine.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/Example/Example.msd" folder="" />
+    </projectModules>
+  </component>
+</project>
