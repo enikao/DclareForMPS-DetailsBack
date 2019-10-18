@@ -50,6 +50,7 @@
     <dependency reexport="false">55d6b6f5-8095-4cd0-a39b-779da8d12940(DclareMPSRuntime)</dependency>
     <dependency reexport="false">b685a5f3-5ce9-4596-99ae-92e5ade1a570(Fine)</dependency>
     <dependency reexport="false">86ef8290-12bb-4ca7-947f-093788f263a9(jetbrains.mps.lang.project)</dependency>
+    <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:c32b788d-8e4b-4023-97f5-3e90d04ed77b:DclareMPS" version="1" />
