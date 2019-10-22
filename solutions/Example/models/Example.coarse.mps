@@ -5,11 +5,17 @@
     <use id="38c70aad-7aa9-4fb5-8f8c-2c6f582c2b75" name="Coarse" version="0" />
   </languages>
   <imports>
-    <import index="oe0t" ref="efd0d2c0-24b1-45e9-a159-7e1401f352ad/r:8d73f366-43a3-4b76-b49d-925c0f2b5ab1(Example/details)" />
+    <import index="tlc0" ref="efd0d2c0-24b1-45e9-a159-7e1401f352ad/r:df4e2ea3-05f5-4b2a-be57-b2828c98724b(Example/details)" />
   </imports>
   <registry>
     <language id="38c70aad-7aa9-4fb5-8f8c-2c6f582c2b75" name="Coarse">
-      <concept id="2195884258642272806" name="Coarse.structure.Container" flags="ng" index="1ahZGZ" />
+      <concept id="2195884258642272809" name="Coarse.structure.Override" flags="ng" index="1ahZGK">
+        <property id="2195884258642272810" name="newValue" index="1ahZGN" />
+        <reference id="2195884258642272902" name="overrides" index="1ahZIv" />
+      </concept>
+      <concept id="2195884258642272806" name="Coarse.structure.Container" flags="ng" index="1ahZGZ">
+        <child id="2195884258642272904" name="overrides" index="1ahZIh" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -19,6 +25,10 @@
   </registry>
   <node concept="1ahZGZ" id="1TTmh_kfL3z">
     <property role="TrG5h" value="AA" />
+    <node concept="1ahZGK" id="3wy$L8i79zz" role="1ahZIh">
+      <property role="1ahZGN" value="yellow" />
+      <ref role="1ahZIv" to="tlc0:3wy$L8i4DJi" resolve="color" />
+    </node>
   </node>
 </model>
 
